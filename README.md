@@ -7,5 +7,6 @@
 - **conj_search_engine.py** - utilities for the Conjunctive Search Engine.
 - **rank_search_engine.py** - utilities for the Ranked Search Engine.
 - **visualization.py** - functions regarding restaurants' locations visualization.
+- **Reg01012024** - necessary utility folder to restaurants vizualisation.
 
 - **main.ipynb** - jupyter notebook, where you can see results and work of our team.
