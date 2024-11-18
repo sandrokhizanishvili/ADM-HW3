@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bca2e42bebe18a98a0ca9d138faa09e3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bca2e42bebe18a98a0ca9d138faa09e3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bca2e42bebe18a98a0ca9d138faa09e3 = L.map(
+                "map_bca2e42bebe18a98a0ca9d138faa09e3",
+                {
+                    center: [41.9028, 12.4964],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d85f98e8fd331c2fb721db0a26e9b307 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d85f98e8fd331c2fb721db0a26e9b307.addTo(map_bca2e42bebe18a98a0ca9d138faa09e3);
+        
+    
+            var marker_85bbe6fd47a9a43843708398ef52abd8 = L.marker(
+                [41.88928828, 14.065457380000002],
+                {}
+            ).addTo(map_bca2e42bebe18a98a0ca9d138faa09e3);
+        
+    
+        var popup_ebc7d8fbe2be1b054e447f81d313e6b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c55bb98cb001da355c5e04fa3f7dabc = $(`<div id="html_8c55bb98cb001da355c5e04fa3f7dabc" style="width: 100.0%; height: 100.0%;">La Corniola<br>via dei Mastri Lombardi 24<br>Pescocostanzo<br>Abruzzo</div>`)[0];
+                popup_ebc7d8fbe2be1b054e447f81d313e6b7.setContent(html_8c55bb98cb001da355c5e04fa3f7dabc);
+            
+        
+
+        marker_85bbe6fd47a9a43843708398ef52abd8.bindPopup(popup_ebc7d8fbe2be1b054e447f81d313e6b7)
+        ;
+
+        
+    
+    
+            marker_85bbe6fd47a9a43843708398ef52abd8.bindTooltip(
+                `<div>
+                     La Corniola
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ea535e77966fdcb43f2610919e28ae0 = L.marker(
+                [37.50646025, 15.092446731966607],
+                {}
+            ).addTo(map_bca2e42bebe18a98a0ca9d138faa09e3);
+        
+    
+        var popup_449f6981c15e3642953720167a9360d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6b17007f2b1d96c82234fb245dcb788 = $(`<div id="html_a6b17007f2b1d96c82234fb245dcb788" style="width: 100.0%; height: 100.0%;">Materia | Spazio Cucina<br>via Teatro Massimo 29<br>Catania<br>Sicilia</div>`)[0];
+                popup_449f6981c15e3642953720167a9360d5.setContent(html_a6b17007f2b1d96c82234fb245dcb788);
+            
+        
+
+        marker_2ea535e77966fdcb43f2610919e28ae0.bindPopup(popup_449f6981c15e3642953720167a9360d5)
+        ;
+
+        
+    
+    
+            marker_2ea535e77966fdcb43f2610919e28ae0.bindTooltip(
+                `<div>
+                     Materia | Spazio Cucina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e107d930082b9aa289e22bfd06c87b2c = L.marker(
+                [41.3617401, 15.306309400000002],
+                {}
+            ).addTo(map_bca2e42bebe18a98a0ca9d138faa09e3);
+        
+    
+        var popup_791ee3bd2ddddedc7c6bf1088eb7d0de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae316ac3e55232cc676412bda9182cf9 = $(`<div id="html_ae316ac3e55232cc676412bda9182cf9" style="width: 100.0%; height: 100.0%;">Gallery Bistrot Contemporaneo<br>via Regina Margherita 3/b<br>Troia<br>Puglia</div>`)[0];
+                popup_791ee3bd2ddddedc7c6bf1088eb7d0de.setContent(html_ae316ac3e55232cc676412bda9182cf9);
+            
+        
+
+        marker_e107d930082b9aa289e22bfd06c87b2c.bindPopup(popup_791ee3bd2ddddedc7c6bf1088eb7d0de)
+        ;
+
+        
+    
+    
+            marker_e107d930082b9aa289e22bfd06c87b2c.bindTooltip(
+                `<div>
+                     Gallery Bistrot Contemporaneo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36855cdd10564616e2c51370c720461f = L.marker(
+                [41.7067152409091, 12.666116904545454],
+                {}
+            ).addTo(map_bca2e42bebe18a98a0ca9d138faa09e3);
+        
+    
+        var popup_68e71d3f57c9292f545b221a192f43db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63fd8523f2201ad742d183c85b87be1a = $(`<div id="html_63fd8523f2201ad742d183c85b87be1a" style="width: 100.0%; height: 100.0%;">Sintesi<br>viale dei Castani 17<br>Ariccia<br>Lazio</div>`)[0];
+                popup_68e71d3f57c9292f545b221a192f43db.setContent(html_63fd8523f2201ad742d183c85b87be1a);
+            
+        
+
+        marker_36855cdd10564616e2c51370c720461f.bindPopup(popup_68e71d3f57c9292f545b221a192f43db)
+        ;
+
+        
+    
+    
+            marker_36855cdd10564616e2c51370c720461f.bindTooltip(
+                `<div>
+                     Sintesi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83da445025589d395451516dc129d047 = L.marker(
+                [40.948619188163256, 17.290885789387758],
+                {}
+            ).addTo(map_bca2e42bebe18a98a0ca9d138faa09e3);
+        
+    
+        var popup_5811d7a8739b7c15a4e108876b01ac4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5e275aca2ffc062557669e3961d0e8b = $(`<div id="html_f5e275aca2ffc062557669e3961d0e8b" style="width: 100.0%; height: 100.0%;">Radimare<br>via Beato Piergiorgio Frassati 5/a<br>Monopoli<br>Puglia</div>`)[0];
+                popup_5811d7a8739b7c15a4e108876b01ac4d.setContent(html_f5e275aca2ffc062557669e3961d0e8b);
+            
+        
+
+        marker_83da445025589d395451516dc129d047.bindPopup(popup_5811d7a8739b7c15a4e108876b01ac4d)
+        ;
+
+        
+    
+    
+            marker_83da445025589d395451516dc129d047.bindTooltip(
+                `<div>
+                     Radimare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0cbac3adc4a68109c4e4f45dc19be1b9 = L.marker(
+                [41.8026902154185, 12.228622463436125],
+                {}
+            ).addTo(map_bca2e42bebe18a98a0ca9d138faa09e3);
+        
+    
+        var popup_b31a742e7f9ef7ba6f37e422fa4296f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_129727eeab024d6c09f6d493a5a4fa1b = $(`<div id="html_129727eeab024d6c09f6d493a5a4fa1b" style="width: 100.0%; height: 100.0%;">Il Tino<br>via Monte Cadria 127<br>Fiumicino<br>Lazio</div>`)[0];
+                popup_b31a742e7f9ef7ba6f37e422fa4296f7.setContent(html_129727eeab024d6c09f6d493a5a4fa1b);
+            
+        
+
+        marker_0cbac3adc4a68109c4e4f45dc19be1b9.bindPopup(popup_b31a742e7f9ef7ba6f37e422fa4296f7)
+        ;
+
+        
+    
+    
+            marker_0cbac3adc4a68109c4e4f45dc19be1b9.bindTooltip(
+                `<div>
+                     Il Tino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53d7804d391b34f2940140d4fb750705 = L.marker(
+                [43.77356208103448, 11.251812923793103],
+                {}
+            ).addTo(map_bca2e42bebe18a98a0ca9d138faa09e3);
+        
+    
+        var popup_1b095e2d62fb47bb54ea069635b3f23c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99c1cec29f4af19b7f3ec12c0076b7d7 = $(`<div id="html_99c1cec29f4af19b7f3ec12c0076b7d7" style="width: 100.0%; height: 100.0%;">Winter Garden Florence<br>piazza Ognissanti 1<br>Firenze<br>Toscana</div>`)[0];
+                popup_1b095e2d62fb47bb54ea069635b3f23c.setContent(html_99c1cec29f4af19b7f3ec12c0076b7d7);
+            
+        
+
+        marker_53d7804d391b34f2940140d4fb750705.bindPopup(popup_1b095e2d62fb47bb54ea069635b3f23c)
+        ;
+
+        
+    
+    
+            marker_53d7804d391b34f2940140d4fb750705.bindTooltip(
+                `<div>
+                     Winter Garden Florence
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_387d0e70f39a72fcd7faff9dd52bd049 = L.marker(
+                [46.5917121, 11.057835036253156],
+                {}
+            ).addTo(map_bca2e42bebe18a98a0ca9d138faa09e3);
+        
+    
+        var popup_d493f9c9b57bbe75283c72afa1ef9abe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5cb023a05aca33fe94e81406a41e086 = $(`<div id="html_a5cb023a05aca33fe94e81406a41e086" style="width: 100.0%; height: 100.0%;">Zum Löwen<br>via Tirolo 25<br>San Pancrazio<br>Trentino-Alto Adige</div>`)[0];
+                popup_d493f9c9b57bbe75283c72afa1ef9abe.setContent(html_a5cb023a05aca33fe94e81406a41e086);
+            
+        
+
+        marker_387d0e70f39a72fcd7faff9dd52bd049.bindPopup(popup_d493f9c9b57bbe75283c72afa1ef9abe)
+        ;
+
+        
+    
+    
+            marker_387d0e70f39a72fcd7faff9dd52bd049.bindTooltip(
+                `<div>
+                     Zum Löwen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_160eb457000b5d9669525afd3f10268e = L.marker(
+                [44.401164968907565, 8.950841702521009],
+                {}
+            ).addTo(map_bca2e42bebe18a98a0ca9d138faa09e3);
+        
+    
+        var popup_56743eacdf1c078a30865ca11907298b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c88444d9f765ffe962af5119a9410585 = $(`<div id="html_c88444d9f765ffe962af5119a9410585" style="width: 100.0%; height: 100.0%;">San Giorgio<br>viale Brigate Bisagno 69r<br>Genova<br>Liguria</div>`)[0];
+                popup_56743eacdf1c078a30865ca11907298b.setContent(html_c88444d9f765ffe962af5119a9410585);
+            
+        
+
+        marker_160eb457000b5d9669525afd3f10268e.bindPopup(popup_56743eacdf1c078a30865ca11907298b)
+        ;
+
+        
+    
+    
+            marker_160eb457000b5d9669525afd3f10268e.bindTooltip(
+                `<div>
+                     San Giorgio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_394a372429a943f1dc8173fcf4a8ab75 = L.marker(
+                [41.89834398908163, 12.47179806734694],
+                {}
+            ).addTo(map_bca2e42bebe18a98a0ca9d138faa09e3);
+        
+    
+        var popup_4ad1a44fe0030399fd2fca199afdb51b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a097d6b86535791b42651969d6abc523 = $(`<div id="html_a097d6b86535791b42651969d6abc523" style="width: 100.0%; height: 100.0%;">Pipero Roma<br>corso Vittorio Emanuele II 250<br>Roma<br>Lazio</div>`)[0];
+                popup_4ad1a44fe0030399fd2fca199afdb51b.setContent(html_a097d6b86535791b42651969d6abc523);
+            
+        
+
+        marker_394a372429a943f1dc8173fcf4a8ab75.bindPopup(popup_4ad1a44fe0030399fd2fca199afdb51b)
+        ;
+
+        
+    
+    
+            marker_394a372429a943f1dc8173fcf4a8ab75.bindTooltip(
+                `<div>
+                     Pipero Roma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            map_bca2e42bebe18a98a0ca9d138faa09e3.fitBounds(
+                [[35.5, 6.6], [47.1, 18.8]],
+                {}
+            );
+        
+</script>
+</html>
